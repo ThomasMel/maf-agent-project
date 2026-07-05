@@ -1,10 +1,13 @@
-# Python-generated files
+# Python virtual environments and package managers
+.venv/
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.pyc
 
-# Virtual environments
-.venv
+# Local environment variable overrides (where secrets live)
+.env
+.env.local
+
+# IDE and system configuration layers
+.vscode/
+.cursor/
+.DS_Store
